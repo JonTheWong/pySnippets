@@ -1,11 +1,11 @@
-from code import randomstring, readfile, readcsv
+from code import randomstring as rs, readfile as rf, readcsv as rc
 
 
 # Print random line/row from a read file
+# Learning about 'as' abreviations
 
-
-print(randomstring.randomstring(readfile.readfile('data/file0.txt')))
-print(randomstring.randomstring(readcsv.readcsv('data/file0.csv')))
+print(rs.randomstring(rf.readfile('data/file0.txt')))
+print(rs.randomstring(rc.readcsv('data/file0.csv')))
 # remove the newline '\n' from the output
-string = randomstring.randomstring(readfile.readfile('data/file0.txt'))
+string = rs.randomstring(rf.readfile('data/file0.txt'))
 print(string.rstrip())
