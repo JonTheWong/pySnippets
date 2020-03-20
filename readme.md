@@ -49,3 +49,9 @@ You can then install the requirements i use to get all the parts of the project
 going.```pip install -r requirements.txt```
 
 That should be it.
+
+## Learning Log
+
+So, i knew i could import modules and custom functions but i've never really did it. Did it. Hopefully the "best way" for now..
+Decided to follow docstring as much as possible; https://www.python.org/dev/peps/pep-0257/, they recommend """ triple double quotes; but i prefer triple single; no one seems to care..
+https://docs.python.org/release/1.5.1p1/tut/strings.html says its the same since the begining.. maybe "work" might care since PEP257 says just use double.. hmm

@@ -4,11 +4,12 @@ import glob
 # Documentation
 # https://docs.python.org/3.7/library/glob.html
 
-
-def readfile():
-    '''Read file(s), return all lines as a list'''
-    file = 'data/file0.txt'
-    for line in glob.iglob(file, recursive=True):
+def readfile(filepath):
+    '''
+    Read file in filepath, return all lines as a list type.
+    Call function: ```readfile('data/file0.txt')```
+    '''
+    for line in glob.iglob(filepath, recursive=True):
         with open(line) as data:
             data = data.readlines()
         return data

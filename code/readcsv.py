@@ -5,10 +5,12 @@ import csv
 # https://docs.python.org/3.7/library/csv.html
 
 
-def readcsv():
-    '''Read file, return the content as a list'''
-    file = 'data/file0.csv'
-    with open(file, newline='') as data:
+def readcsv(filepath):
+    '''
+    Read file in filepath, return all rows as a list type.
+    Call function: ```readcsv('data/file0.csv')```
+    '''
+    with open(filepath, newline='') as data:
         data = csv.reader(data, delimiter=',', quotechar='|')
         rowofdata = []
         for row in data:
