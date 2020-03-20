@@ -6,7 +6,7 @@ is reusable.
 
 I'm creating a directory with snippets that i can use to build simple to more advanced projects.
 
-I recently graduated from the SkillShare Python for Beginners in early 2020. The program was great.
+I completed my certificate from [SkillShare on the Python for Beginners program](https://jonthewong.com/wp-content/uploads/sites/5/2020/02/StackSkills-Python-for-Beginners.jpg) in early 2020. The program was great. Opened my mind to all the connections i was missing as a Linux System Administrator.
 
 I decided on python due to the implication it would compliment my experience as a Linux System Administrator.
 
