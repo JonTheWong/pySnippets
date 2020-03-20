@@ -5,9 +5,9 @@ import csv
 # https://docs.python.org/3.7/library/csv.html
 
 
-def readCSV():
+def readcsv():
     '''Read file, return the content as a list'''
-    file = '../data/file0.csv'
+    file = 'data/file0.csv'
     with open(file, newline='') as data:
         data = csv.reader(data, delimiter=',', quotechar='|')
         rowofdata = []
@@ -16,4 +16,4 @@ def readCSV():
     return rowofdata
 
 
-print(readCSV())   # expected output [['file0,line0'], ['file0,line1'], ['file0,line2'], ['file0,line3'], ['file0,line4'], ['file0,line5']]
+# print(readcsv())   # expected output [['file0,line0'], ['file0,line1'], ['file0,line2'], ['file0,line3'], ['file0,line4'], ['file0,line5']]
