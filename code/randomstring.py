@@ -8,6 +8,7 @@ import random
 def randomstring(path):
     '''
     Picks a random string
+    randomstring('../data/file0.txt')
     '''
     rando = random.choice(path)
     output = '%s' % (rando)
